@@ -10,7 +10,6 @@ proxy-providers:
   All:
     type: http
     url: "https://ghproxy.com/"
-
     interval: 86400
     path: ./ruleset/all.yaml
     health-check:

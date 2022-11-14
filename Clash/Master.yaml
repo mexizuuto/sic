@@ -1,9 +1,9 @@
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
 bind-address: '*'
 mode: rule
 log-level: info
-ipv6: true
+ipv6: false
 external-controller: 127.0.0.1:9090
 
 proxy-providers:
@@ -18,7 +18,7 @@ proxy-providers:
       
 dns:
   enable: true
-  ipv6: true
+  ipv6: false
   listen: 0.0.0.0:53
   default-nameserver:
     - 119.29.29.29

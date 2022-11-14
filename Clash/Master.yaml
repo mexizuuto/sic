@@ -55,9 +55,9 @@ proxy-groups:
 
   - name: YouTube
     type: select
-     use:
+    use:
       - All
-    proxies: &G
+    proxies:
       - Proxy
 
   - name: Game
@@ -217,7 +217,7 @@ rule-providers:
 rules:
   - RULE-SET,reject,AdBlock
   - RULE-SET,YouTube,YouTube
-  - RULE-SET,Netflix,Game
+  - RULE-SET,Game,Game
   - RULE-SET,apple,Apple
   - RULE-SET,icloud,iCloud
   - RULE-SET,proxy,Proxy

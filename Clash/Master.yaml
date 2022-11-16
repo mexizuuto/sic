@@ -84,11 +84,6 @@ proxy-groups:
     type: select
     proxies: 
       - DIRECT
-
-  - name: AdBlock
-    type: select
-    proxies:
-      - REJECT
       
   - name: Others
     type: select
@@ -97,13 +92,7 @@ proxy-groups:
       - DIRECT
     
 rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./ruleset/reject.yaml
-    interval: 86400
-
+  
   icloud:
     type: http
     behavior: domain
@@ -200,7 +189,6 @@ rules:
   - DOMAIN,clash.razord.top,Direct
   - DOMAIN,yacd.haishan.me,Direct
   - RULE-SET,private,Direct
-  - RULE-SET,reject,AdBlock
   - RULE-SET,icloud,iCloud
   - RULE-SET,apple,Apple
   - RULE-SET,google,Proxy

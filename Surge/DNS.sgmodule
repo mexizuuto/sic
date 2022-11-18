@@ -1,0 +1,8 @@
+#!name=DOH
+#!desc=基于h2加密
+
+
+[General]
+
+dns-server = 119.29.29.29, 223.5.5.5
+doh-server = https://h2.forhere.cn/dns-query

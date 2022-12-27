@@ -1,7 +1,8 @@
-zhanzhang.toutiao.com
-push.zhanzhang.baidu.com
-sf1-scmcdn-tos.pstatp.com
-lib.baomitu.com
-sp.98big.com
-www.98dou.cn
-www.98big.com
+# MxOnePro模板
+DOMAIN,zhanzhang.toutiao.com
+DOMAIN,push.zhanzhang.baidu.com
+DOMAIN,sf1-scmcdn-tos.pstatp.com
+DOMAIN,lib.baomitu.com
+DOMAIN,sp.98big.com
+DOMAIN,www.98dou.cn
+DOMAIN,www.98big.com

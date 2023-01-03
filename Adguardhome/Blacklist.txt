@@ -1,8 +1,6 @@
 !
 ! MxOnePro
 !
-||98big.com^$important
-! ||98dou.cn^$important
-||98big.com^$important
+
 ||zhanzhang.toutiao.com^$important
 ||sf1-scmcdn-tos.pstatp.com^$important

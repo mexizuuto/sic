@@ -25,5 +25,5 @@ dns:
     - '*.blzstatic.cn'
     - '*.battle.net'
   nameserver:
-    - https://doh.pub/dns-query
+    - https://adg.lpxwl.com/dns-query
     - https://dns.alidns.com/dns-query

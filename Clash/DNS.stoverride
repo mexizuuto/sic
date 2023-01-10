@@ -10,7 +10,5 @@ dns:
     - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  use-hosts: true
   nameserver:
-    - https://adg.lpxwl.com/dns-query
     - https://dns.alidns.com/dns-query
